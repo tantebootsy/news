@@ -127,7 +127,7 @@ In a nutshell:
 * :yaml:`aspects` can be used to modify these arguments. You could e.g. map the title (or better: the optimized path segment) of the current news.
   Different types of *Mappers* and *Modifiers* are available, depending on the case.
 
-1. URL of detail page without routing:
+1. URL of detail page without routing (if plugin.tx_news.settings.link.skipControllerAndAction is not set to "true):
 ``https://www.example.com/news/detail?tx_news_pi1[action]=detail&tx_news_pi1[controller]=News&tx_news_pi1[news]=5&cHash=``
 
 2. URL of detail page with routes:
